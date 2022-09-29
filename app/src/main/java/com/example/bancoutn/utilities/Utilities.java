@@ -25,10 +25,10 @@ public abstract class Utilities {
 
         }
 
-        @Override
-        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+        //Este metodo tambien se debe sobreescribir
+        public abstract void beforeTextChanged(CharSequence s, int start, int count, int after);
             
-        }
+        
 
         //Metodo que es realmente util
         public abstract void afterTextChanged(Editable s);
