@@ -14,4 +14,23 @@ public abstract class Utilities {
     {
         return Double.parseDouble(String.valueOf(valor));
     }
+
+    //Metodo que extiende y sobreescribe los metodos inecesarios de TextWatcher
+    public abstract class TextWatcherExtender implements TextWatcher
+    {
+
+        @Override
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+            // TODO Auto-generated method stub
+
+        }
+
+        @Override
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+            
+        }
+
+        //Metodo que es realmente util
+        public abstract void afterTextChanged(Editable s);
+    };
 }
