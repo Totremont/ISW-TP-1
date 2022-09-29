@@ -27,6 +27,8 @@
     <string name="monto_total_anual">Monto total anual:</string>
     <string name="confirmar">CONFIRMAR</string>
 
+    <string name="modificacion">ARCHIVO_MODIFICADO</string>
+
     <!-- Nombres de fragmentos y activities -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="simular_plazo">Simular plazo</string>
